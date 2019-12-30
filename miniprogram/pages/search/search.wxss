@@ -1,0 +1,43 @@
+.video-wrap {
+  display: flex;
+  flex-wrap: wrap; /*控制伸缩容器是单行还是多行，以及横轴的方向，横轴决定新行堆叠的方向。*/
+  padding: 20rpx;
+  justify-content: space-between;
+}
+
+.video-item {
+  width: 48%;
+  margin-bottom: 20rpx;
+}
+
+.video-img {
+  position: relative; /*相对位置*/
+}
+
+.video-img-image {
+  width: 100%;
+  border-radius: 16rpx;
+}
+
+.video-img .video-info {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  left: 0;
+  bottom: 8rpx;
+  width: 100%;
+  color: #fff;
+  font-size: 20rpx;
+}
+
+
+.video-title {
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+  text-overflow: ellipsis;   /*当防止文本换行时，文本可能会溢出。*/
+  word-wrap: break-word;   /*allow long words to next line*/
+  -webkit-line-clamp: 2;   /*limit line number*/
+  -webkit-box-orient: vertical;
+  font-size: 28rpx;
+}

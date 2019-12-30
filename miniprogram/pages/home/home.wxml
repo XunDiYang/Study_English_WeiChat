@@ -1,0 +1,15 @@
+<view class = "home">
+  <view>
+    <button ></button>
+  </view>
+  <navigator  url = "../record/record">
+    <image class = "img_home" src = "../../images/Calender(点击前).png">Record </image>
+  </navigator>
+  <navigator  url = "../mood/mood">
+    <image class = "img_home" src = "../../images/mood1.png"> Mood</image>
+  </navigator>
+  <navigator class = "model" url = "../wordbook/wordbook">
+    <image class = "img_home" src = "../../images/单词本2.png" >WordBook</image>
+  </navigator>
+  <image src="../../images/logo3.png"></image>
+</view>

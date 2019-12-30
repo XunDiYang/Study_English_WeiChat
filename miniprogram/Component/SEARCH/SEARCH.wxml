@@ -1,0 +1,14 @@
+<view class = "search">
+  <view class = "logo">
+    <image class = "logo_img" src = "../../images/logo3.png" style = "width:90rpx;height:80rpx"></image>
+  </view>
+ <navigator url = "../../pages/answer/answer">
+  <view class = "input" >
+    <input  type="text" placeholder="输入生词，即刻查询" ></input>
+  </view>
+ </navigator>
+  <view class = "user_icon">
+    <image src = "../../images/person.png"style = "width:60rpx;height:60rpx"></image>
+  </view>
+  <text class = "search_button" >SEARCH</text>
+</view>

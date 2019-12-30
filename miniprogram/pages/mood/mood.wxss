@@ -1,0 +1,21 @@
+/* pages/mood/mood.wxss */
+.container{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.userinfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  height: 200rpx;
+}
+.search{
+  margin-top: 20rpx;
+  padding-top: 20rpx;
+  height: 500rpx;
+  background-color: rgb(247, 221, 221);
+}

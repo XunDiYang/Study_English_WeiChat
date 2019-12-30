@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/search/search",
+    "pages/home/home",
+    "pages/video/video",
+    "pages/answer/answer",
+    "pages/wordbook/wordbook",
+    "pages/record/record",
+    "pages/mood/mood"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#fff",
+    "selectedColor": "#000",
+    "backgroundColor": "#add8e6",
+    "list": [
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜索",
+        "iconPath": "images/Fly(点击前).png",
+        "selectedIconPath": "images/Fly(点击后).png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "Home",
+        "iconPath": "images/Home（点击前）.png",
+        "selectedIconPath": "images/Home（点击后） .png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

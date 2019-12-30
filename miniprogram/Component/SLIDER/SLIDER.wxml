@@ -1,0 +1,22 @@
+<swiper class="index-swiper" 
+  indicator-dots="false" autoplay="true" interval="1500" duration="300">
+       <block>
+                <swiper-item>
+                    <image src="../../images/news1.jpg" mode="aspectFill"></image>
+                    <view class="title">lalalalalla！</view>
+                </swiper-item>
+                <swiper-item>
+                    <image src="../../images/news2.jpg" mode="scaleToFill"></image>
+                    <text >lalalalalla！</text>
+                </swiper-item>
+                <swiper-item>
+                    <image src="../../images/news3.jpg" mode="scaleToFill"></image>
+                    <view class="title">lalalalalla！</view>
+                </swiper-item>
+                <swiper-item>
+                    <image src="../../images/news4.jpg" mode="scaleToFill"></image>
+                    <view class="title">lalalalalla！</view>
+                </swiper-item>
+                
+          </block>
+</swiper>

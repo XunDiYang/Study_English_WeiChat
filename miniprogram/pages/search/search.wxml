@@ -1,0 +1,24 @@
+<SEARCH></SEARCH>
+
+<view>
+ <scroll-view>
+  <SLIDER style="margin: 0"></SLIDER>
+ </scroll-view>
+</view>
+<view class="video-wrap">
+
+  <navigator url="../video/video?id={{item._id}}" class="video-item" wx:for="{{videosList}}" wx:key="{{index}}">
+    <view class="video-img">
+      <image src="{{item.imgSrc}}" mode="widthFix" class="video-img-image"></image>
+      <view class="video-info">
+
+        <view class="play-count-wrap">
+          <text class="play-count">{{item.playCount}}</text>
+        </view>
+        
+      </view>
+    </view>
+    <view class="video-title">{{item.desc}}</view>
+  </navigator>
+
+</view>

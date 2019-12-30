@@ -1,0 +1,64 @@
+/* pages/record/record.wxss */
+.container{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.userinfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(223, 160, 160);
+  height: 120rpx;
+}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx 40rpx 20rpx;
+  border-radius: 50%;
+}
+.userinfo-nickname {
+  display: block;
+  color: #000;
+  font-size: 32rpx;
+}
+.userinfo-records {
+  margin-top: 20rpx;
+  display: block;
+  color: rgb(255, 255, 255);
+  font-size: 26rpx;
+}
+.records-num{
+  margin: 0 8rpx;
+}
+.search{
+  margin-top: 20rpx;
+  padding-top: 20rpx;
+  height: 60rpx;
+  background-color: rgb(241, 210, 210);
+}
+.search input{
+  padding: 0 30rpx;
+  font-size: 30rpx;
+  height: 40rpx;
+}
+.records-list{
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 340rpx;
+  bottom: 0;
+}
+.section{
+  height: 50rpx;
+  text-align: center;
+}
+.section image{
+  height: 50rpx;
+  width: 50rpx;
+}
+.section text{
+  text-align: center;
+  font-size: 30rpx;
+}

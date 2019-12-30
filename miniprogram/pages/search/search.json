@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "SEARCH": "../../Component/SEARCH/SEARCH",
+    "SLIDER": "../../Component/SLIDER/SLIDER"
+  }
+}

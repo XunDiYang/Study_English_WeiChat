@@ -1,0 +1,76 @@
+.search{
+  display: flex;
+  flex-direction: row;
+  font-size: 30rpx;
+  align-items: center;
+  background-color: aliceblue;
+  color: white;
+  border: 10rpx;
+  padding: 10rpx;
+}
+
+.logo{
+  flex: 3;
+  height: 80rpx;
+}
+
+.search_icon{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user_icon{
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search_button{
+  flex: 3;
+  height: 60rpx;
+  font-size: 30rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightseagreen;
+  color: white;
+  border: 5rpx;
+  padding: 2rpx;
+}
+
+.input{
+  color: black;
+}
+.main{
+  margin-top: 50rpx;
+}
+
+#word{
+  text-shadow: 5px 5px 5px 	#00FFFF;
+ text-align: center;
+  margin-top: 100rpx;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#mean{
+  font-family: 'Times New Roman', Times, serif;
+  flex-wrap: wrap; /*控制伸缩容器是单行还是多行，以及横轴的方向，横轴决定新行堆叠的方向。*/
+  text-overflow: ellipsis;   /*当防止文本换行时，文本可能会溢出。*/
+  word-wrap: break-word;   /*allow long words to next line*/
+  -webkit-line-clamp: 2;   /*limit line number*/
+  -webkit-box-orient: vertical;
+  font-size: 50rpx;
+}
+#logo2{
+  display: flex;
+  justify-content: center; 
+  align-items:center;    
+  margin-top: 500rpx;
+  margin-left: 270rpx;
+  width:220rpx;
+  height: 250rpx;
+}

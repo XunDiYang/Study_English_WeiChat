@@ -1,0 +1,30 @@
+/* pages/detail/detail.wxss */
+
+.main {
+  padding: 10rpx;/*bian ju*/ /*tian chong*/
+  color: #666;
+}
+
+.video-info {
+  margin-top: 50rpx;       /*video ju dingbu ju li*/ 
+}
+
+.video-info video {
+  width: 100%;             /*video da xiao */
+}
+
+.video.title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 36rpx;
+}
+
+#logo{
+  display: flex;
+  justify-content: center; 
+  align-items:center;    
+  margin-top: 200rpx;
+  margin-left: 270rpx;
+  width:220rpx;
+  height: 250rpx;
+}

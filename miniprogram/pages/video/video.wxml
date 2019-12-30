@@ -1,0 +1,10 @@
+<view class="main">
+  <SEARCH></SEARCH>
+  <view class="video-info">
+    <video src="{{videoSrc}}" controls></video>
+    <view class="video-title">
+      <text>{{desc}}</text>
+    </view>
+  </view>
+  <image src = "../../images/logo3.png" id = "logo"></image>
+</view>
